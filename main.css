@@ -5,26 +5,26 @@ body {
 
 .title {
   animation: titlein;
-  font-size: 20px;
+  font-size: 50px;
   color: #918E8E;
   text-align: center;
   font-weight: 900;
 }
 
 .title:hover{
-  font-size: 30px;
+  font-size: 60px;
   color: #535050;
   animation: titleout 2s;
 }
 
 @keyframes titleout {
-  0% {font-size: 20px; color: #918E8E;}
-  100% {font-size: 30px; color: #535050;}
+  0% {font-size: 50px; color: #918E8E;}
+  100% {font-size: 60px; color: #535050;}
 }
 
 @keyframes titlein {
-  0% {font-size: 30px; color: #535050;}
-  100% {font-size: 20px; color: #918E8E;}
+  0% {font-size: 60px; color: #535050;}
+  100% {font-size: 50px; color: #918E8E;}
 }
 
 .leftbar{
