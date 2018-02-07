@@ -22,25 +22,25 @@ body {
   margin: 0 auto;
   font-weight: 900;
   font-family: 'Ubuntu';
-  border-bottom: 4px solid #918E8E;
+  border-bottom: 3px solid #918E8E;
 }
 
 .title:hover{
   font-size: 60px;
   color: #535050;
   animation: titleout 2s;
-  border-bottom: 4px solid #535050;
-  width: 600px;
+  border-bottom: 3px solid #535050;
+  width: 700px;
 }
 
 @keyframes titleout {
-  0% {font-size: 50px; color: #918E8E; border-bottom: 4px solid #918E8E;width: 450px;}
-  100% {font-size: 60px; color: #535050; border-bottom: 4px solid #535050; width: 600px;}
+  0% {font-size: 50px; color: #918E8E; border-bottom: 3px solid #918E8E;width: 450px;}
+  100% {font-size: 60px; color: #535050; border-bottom: 3px solid #535050; width: 700px;}
 }
 
 @keyframes titlein {
-  0% {font-size: 60px; color: #535050; border-bottom: 4px solid #535050; width: 600px;}
-  100% {font-size: 50px; color: #918E8E; border-bottom: 4px solid #918E8E;width: 450px;}
+  0% {font-size: 60px; color: #535050; border-bottom: 3px solid #535050; width: 700px;}
+  100% {font-size: 50px; color: #918E8E; border-bottom: 3px solid #918E8E;width: 450px;}
 }
 
 .logoContainer{
@@ -68,7 +68,6 @@ body {
   border-radius: 7.5px;
   margin: 20px 20px 20px 20px;
   padding: 20px 20px 20px 20px;
-  text-shadow: 0.5px 0.5px #CCCCCC;
   overflow: auto;
   position: absolute;
   animation: leftbarin 1.5s;
@@ -77,6 +76,7 @@ body {
 .leftbar:hover{
   background-color: #BBCBF4;
   font-weight: 700;
+  text-shadow: 1px 0.5px #CCCCCC;
 }
 
 @keyframes leftbarin{
