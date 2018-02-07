@@ -1,0 +1,40 @@
+body {
+  background-color: #C2BDBD;
+  font-family: 'Oxygen';
+}
+
+.title {
+  animation: titlein;
+  font-size: 20px;
+  color: #918E8E;
+  text-align: center;
+  font-weight: 900;
+}
+
+.title:hover{
+  font-size: 30px;
+  color: #535050;
+  animation: titleout 2s;
+}
+
+@keyframes titleout {
+  0% {font-size: 20px; color: #918E8E;}
+  100% {font-size: 30px; color: #535050;}
+}
+
+@keyframes titlein {
+  0% {font-size: 30px; color: #535050;}
+  100% {font-size: 20px; color: #918E8E;}
+}
+
+.leftbar{
+  float: left;
+  min-height: 100px;
+  width: 200px;
+  background-color: white;
+  border-radius: 7.5px;
+  margin: 20px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
+  text-shadow: 0.5px 0.5px #CCCCCC;
+  overflow: auto;
+}
