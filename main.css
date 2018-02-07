@@ -1,5 +1,5 @@
 body {
-  background-color: #C2BDBD;
+  background-color: #E9E7E7;
   font-family: 'Oxygen';
 }
 
@@ -29,6 +29,7 @@ body {
 
 .leftbar{
   float: left;
+  font-family: 'Ubuntu';
   min-height: 100px;
   width: 200px;
   background-color: white;
@@ -37,4 +38,16 @@ body {
   padding: 20px 20px 20px 20px;
   text-shadow: 0.5px 0.5px #CCCCCC;
   overflow: auto;
+  position: absolute;
+  animation: leftbarin 1.5s;
+}
+
+.leftbar:hover{
+  background-color: #BBCBF4;
+  font-weight: 700;
+}
+
+@keyframes leftbarin{
+  0% {left: 25px;}
+  100% {left: 7.5px;}
 }
