@@ -19,34 +19,24 @@ img {
 }
 
 .title {
-  animation: titlein;
-  font-size: 50px;
-  width: 450px;
-  color: #918E8E;
-  text-align: center;
+  width: 70%;
+  position: relative;
   margin: 0 auto;
-  font-weight: 900;
+}
+
+.titleWithIn{
+  width: 100%;
+  height: 100%;
+  position: absolute;
   font-family: 'Ubuntu';
-  border-bottom: 3px solid #918E8E;
+  margin: 0 auto;
+  opacity: 1;
+  font-weight: 900;
+  color: black;
+  font-size: 50px;
 }
 
-.title:hover{
-  font-size: 60px;
-  color: #535050;
-  animation: titleout 2s;
-  border-bottom: 3px solid #535050;
-  width: 700px;
-}
 
-@keyframes titleout {
-  0% {font-size: 50px; color: #918E8E; border-bottom: 3px solid #918E8E;width: 450px;}
-  100% {font-size: 60px; color: #535050; border-bottom: 3px solid #535050; width: 700px;}
-}
-
-@keyframes titlein {
-  0% {font-size: 60px; color: #535050; border-bottom: 3px solid #535050; width: 700px;}
-  100% {font-size: 50px; color: #918E8E; border-bottom: 3px solid #918E8E;width: 450px;}
-}
 
 .logoContainer{
   float: left;
