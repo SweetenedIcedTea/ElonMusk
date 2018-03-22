@@ -58,23 +58,26 @@ img {
 .rightContainer{
 }
 
-.leftbar{
+.teslabar{
   float: left;
-  min-height: 100px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   background-color: white;
   border-radius: 7.5px;
   margin: 20px 20px 20px 20px;
-  padding: 20px 20px 20px 20px;
   overflow: auto;
   position: absolute;
   animation: leftbarin 1.5s;
+  background-image: url("Images/TeslaLogo.png");
+  background-size: 150px 150px;
+  background-repeat: no-repeat;
 }
 
-.leftbar:hover{
+.teslabar:hover{
   background-color: #BBCBF4;
   font-weight: 700;
   text-shadow: 1px 0.5px #CCCCCC;
+  background-image: url("Images/TeslaLogo1.png");
 }
 
 @keyframes leftbarin{
