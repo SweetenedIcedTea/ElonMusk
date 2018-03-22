@@ -67,7 +67,7 @@ img {
   margin: 20px 20px 20px 20px;
   overflow: auto;
   position: absolute;
-  animation: leftbarin 1.5s;
+  animation: teslabarin 1.5s;
   background-image: url("Images/TeslaLogo.png");
   background-size: 150px 150px;
   background-repeat: no-repeat;
@@ -80,7 +80,7 @@ img {
   background-image: url("Images/TeslaLogo1.png");
 }
 
-@keyframes leftbarin{
+@keyframes teslabarin{
   0% {left: 25px;}
   100% {left: 0px;}
 }
