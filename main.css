@@ -111,3 +111,30 @@ img {
   0% {left: 25px;}
   100% {left: 0px;}
 }
+
+.boringbar{
+  float: left;
+  height: 150px;
+  width: 150px;
+  background-color: white;
+  border-radius: 7.5px;
+  margin: 20px 20px 20px 20px;
+  overflow: auto;
+  animation: spacexbarin 1.5s;
+  background-image: url("Images/boring.png");
+  background-size: 150px 150px;
+  background-repeat: no-repeat;
+  left: auto;
+}
+
+.boringbar:hover{
+  background-color: #BBCBF4;
+  font-weight: 700;
+  text-shadow: 1px 0.5px #CCCCCC;
+  background-image: url("Images/boring1.png");
+}
+
+@keyframes spacexbarin{
+  0% {left: 25px;}
+  100% {left: 0px;}
+}
