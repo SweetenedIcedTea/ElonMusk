@@ -1,6 +1,6 @@
 body {
   background-color: #E9E7E7;
-  font-family: 'Oxygen';
+  font-family: 'Bebas Neue';
   margin: 0;
 }
 
@@ -133,4 +133,26 @@ img {
 @keyframes spacexbarin{
   0% {left: 25px;}
   100% {left: 0px;}
+}
+
+table {
+  margin: 0 auto;
+  border-spacing: 35px 0px;
+}
+
+tr {
+  vertical-align: middle;
+  margin: 0 auto;
+}
+
+th {
+  color: white;
+  font-size: 27px;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+th.farright {
+  border-right: 1px solid white;
+  margin: 0 auto;
 }
