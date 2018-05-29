@@ -60,7 +60,7 @@ img {
   width: 150px;
   background-color: white;
   border-radius: 7.5px;
-  margin: 20px 20px 20px 20px;
+  margin: 0 auto;
   overflow: auto;
   animation: teslabarin 1.5s;
   background-image: url("Images/TeslaLogo.png");
@@ -87,7 +87,7 @@ img {
   width: 150px;
   background-color: white;
   border-radius: 7.5px;
-  margin: 20px 20px 20px 20px;
+  margin: 0 auto;
   overflow: auto;
   animation: spacexbarin 1.5s;
   background-image: url("Images/SpaceXLogo.png");
@@ -114,7 +114,7 @@ img {
   width: 150px;
   background-color: white;
   border-radius: 7.5px;
-  margin: 20px 20px 20px 20px;
+  margin: 0 auto;
   overflow: auto;
   animation: spacexbarin 1.5s;
   background-image: url("Images/boring.png");
@@ -136,13 +136,13 @@ img {
   width: 150px;
   background-color: white;
   border-radius: 7.5px;
-  margin: 20px 20px 20px 20px;
+  margin: 0 auto;
   overflow: auto;
   animation: spacexbarin 1.5s;
   background-image: url("Images/elontab.png");
   background-size: 150px 150px;
   background-repeat: no-repeat;
-  left: auto;
+
 }
 
 .elonbar:hover{
